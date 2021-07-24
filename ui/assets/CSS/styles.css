@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*:focus {
+  outline: none;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/burrito.jpg') no-repeat fixed center;
+}
+.page-header {
+  color: #FFFFFF;
+  font-size: 30px;
+  font-family: Dosis-Regular;
+  display: block;
+  text-align: left;
+  margin-bottom: 10px;
+}

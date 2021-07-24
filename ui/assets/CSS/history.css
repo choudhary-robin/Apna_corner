@@ -1,0 +1,68 @@
+.history-container {
+  width: 80%;
+  height: 80%;
+  overflow-y: scroll;
+}
+.order-manager-table {
+  height: auto;
+}
+.history-container .history-item {
+  width: 100%;
+  padding: 20px;
+  height: 70px;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.history-order-link {
+  font-family: Dosis-SemiBold;
+  color: #000000;
+  font-size: 20px;
+  text-decoration: none;
+}
+.history-order-name {
+  font-family: Dosis-Regular;
+  color: #000000;
+  font-size: 20px;
+}
+.order-actions {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 140px;
+  justify-content: space-between;
+  align-items: center;
+}
+.order-action {
+  color: #FFFFFF;
+  border: none;
+  background-color: #000000;
+  width: 60px;
+  height: 100%;
+  font-family: Dosis-Regular;
+  font-size: 15px;
+}
+.order-action:hover {
+  cursor: pointer;
+}
+.green {
+  background-color: #539C0F;
+}
+.red {
+  background-color: #D64;
+}
+tr {
+  background-color: #FFFFFF;
+  line-height: 40px;
+}
+.order-table {
+  width: 100%;
+  height: 100%;
+  font-family: Dosis-Regular
+}
+td, th {
+  border: none;
+}
